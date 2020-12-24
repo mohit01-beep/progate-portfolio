@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body{
+	background-color: black;
+}
+
+li { 
+	list-style: none;
+	float:left;
+    padding:30px 20px;
+}
+.header {
+     font-weight: bold;
+     color: #edf2f4;
+ 	 background-color: #14213d;
+	  height:110px;
+ 	 border-radius: 30em 30em;
+}
+
+.main {
+  background-color: #0e1413;
+  margin: auto;
+  color: #fff;
+  border-radius: 100px;
+  border: 5px solid;
+}
+
+.head1 span3{
+	color: #fb5607;
+}
+.head1 h1{
+	color: #ff9f1c;
+	font-size: 18px;
+}
+
+.head1 para{
+	font-size: 14px;
+	
+}
+
+.header-logo{
+ font-size:36px;
+ float: left;
+  padding:20px 40px;
+}
+
+.footer {
+  background-color: #293241;
+  color:#ffffff;
+  height: 120px;
+  padding:40px;
+  margin-bottom: 0px;
+  border-radius: 90em 50em;
+}
+
+.footer-logo{
+font-size:32px;
+float:left;  
+}
+
+.footer-list {
+float:right;
+
+}
+  
+.footer-list li{
+padding-bottom:25px;
+text-decoration: none;
+  
+}
+
+.intro-bg {
+	background: url("https://i.imgur.com/oIRyvUJ.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 120px;
+	color: #fff;
+	position: relative;
+}
+.intro-bg .content {
+	position: relative;
+	z-index: 5;
+	text-shadow: 0 0 2px #fff;
+	margin: auto;
+	transform: translate(-35%, -35%);
+	text-align: center;
+}
+.intro-bg::before {
+	position: relative;
+	content: "";
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.intro-bg .socials a {
+	color: #fff;
+    font-size: 2.5em;
+	padding: 10px;
+	transition: all 0.3s linear;
+}
+.intro-bg .socials a:hover {
+	color: #f70;
+}
+
+.intro-bg .content .h3{
+    font-weight: bolder;
+    color: #000000 ;
+}
