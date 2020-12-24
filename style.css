@@ -70,7 +70,6 @@ text-decoration: none;
 }
 
 .intro-bg {
-	background: url("https://i.imgur.com/oIRyvUJ.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	min-height: 120px;
